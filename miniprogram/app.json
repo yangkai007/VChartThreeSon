@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/proList/proList",
+    "pages/index/index",
+    "pages/homepage/homepage",
+    "pages/logs/logs",
+    "pages/components/uphead/uphead"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/proList/proList",
+        "text": "首页",
+        "iconPath": "pages/icon/share-anti.png",
+        "selectedIconPath": "pages/icon/share.png"
+      },
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text": "商品",
+        "iconPath": "pages/icon/cinema.png",
+        "selectedIconPath": "pages/icon/cinema1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "pages/icon/user.png",
+        "selectedIconPath": "pages/icon/user1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "猫和老鼠",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

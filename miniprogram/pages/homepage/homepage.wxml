@@ -1,0 +1,32 @@
+<!--pages/homepage/homepage.wxml-->
+<text></text>
+<view>
+  <view class="main">
+    <view class="item item1">默认</view>
+    <view class="item item2">销量</view>
+    <view class="item item3">价格</view>
+    <view class="item item1">上新</view>
+  </view>
+  
+  <view class="appointment">
+  <view class="app-moduler">
+
+   
+
+    <navigator class="mod-item" wx:for="{{ThreeSongShop}}" wx:key="index">
+      <view class="mod-img">
+        <image src='{{item.img}}' class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>{{item.name}}</text>  
+      </view>
+      <view >
+        <view class="money">￥<text>{{item.price}}</text> </view>
+        <view class="pingjia"><text>116万条评价</text> <text id="haoping">好评98%</text></view>
+      </view>
+    </navigator>
+
+   
+   </view>
+</view>
+</view>

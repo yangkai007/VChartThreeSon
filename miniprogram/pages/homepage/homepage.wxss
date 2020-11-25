@@ -1,0 +1,70 @@
+/* pages/homepage/homepage.wxss */
+.main {
+  width: 100%;
+  display:flex;
+}
+.item {
+  height: 70rpx;
+  width: 100rpx;
+  margin-left: 75rpx;
+}
+
+.mod-item{
+  width:46%;
+  height:450rpx;
+  float: left;
+  margin-left:20rpx;
+  margin-top:40rpx;
+  position: relative;
+  
+ }
+
+
+ .mod-img{
+   width:100%;
+   height:330rpx;
+   border-radius: 16rpx;
+ } 
+ .mod-image{
+   width: 100%;
+   height:330rpx;
+   border-radius: 16rpx;
+ }
+ .mod-title{
+   font-size:32rpx;
+   font-family: '微软雅黑';
+   height:45rpx;
+   margin-top:15rpx;
+   flex-direction:column;
+   text-overflow: ellipsis;
+   overflow: hidden;
+ }
+ .mod-info{
+   height:40rpx;
+ }
+ 
+  
+ .money{
+   font-size: 28rpx;
+   font-family: '微软雅黑';
+   color:#e93b3d;
+ }
+ .money text{
+  font-size: 43rpx;
+ }
+.pingjia{
+  font-size: 28rpx;
+  font-family: '微软雅黑';
+  color:#999999;
+}
+#haoping{
+  margin-left: 60rpx;
+}
+ .more-info{
+   display: flex;
+   font-size:32rpx;
+   font-family: '微软雅黑';
+   line-height: 98rpx;
+   text-indent: 30rpx;
+   color:#586C94;
+ }

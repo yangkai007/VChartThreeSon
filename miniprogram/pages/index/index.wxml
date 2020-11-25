@@ -1,0 +1,101 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <view class="userinfo">
+    <view class="info-bg">
+    </view>
+   
+     <view class="info-content">
+
+      <view class="portrait">
+       <view bindtap="goimgs">
+        <image src="{{userPhone}}"></image>
+       </view>
+      </view>
+
+      <text class="my-name">{{userName}}</text>
+    </view> 
+    <!-- 如果登录 才展示下面内容 -->
+    <block wx:if="{{canIUse}}"> 
+    </block>
+      <button wx:else class="get-btn" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"> 授权登录 </button>
+    </view>
+</view>
+ 
+<view  wx:if="{{userName}}"></view>
+
+<view class="four-my">
+  <view class="index-for">
+    <view class="index-for-left">
+    <image src="../icon/zhanghu.png"></image>
+  </view>
+  <view class="index-for-right">
+   <text>账户</text> 
+   <view class="text-two">余额 1.00</view>
+  </view>
+</view>
+<view class="index-for">
+  <view class="index-for-left">
+    <image src="../icon/daifuk.png"></image>
+  </view>
+  <view class="index-for-right">
+    <text>待付款</text> 
+   <view class="text-two">前往支付</view>
+  </view>
+</view>
+
+<view class="index-for">
+  <view class="index-for-left">
+    <image src="../icon/gouwuche.png"></image>
+  </view>
+  <view class="index-for-right">
+   <text>购物车</text> 
+   <view class="text-two">添加商品</view>
+  </view>
+</view>
+
+<view class="index-for">
+  <view class="index-for-left">
+    <image src="../icon/dingdantongji.png"></image>
+  </view>
+  <view class="index-for-right">
+    <text>订单</text> 
+    <view class="text-two">管理订单</view>
+  </view>
+</view>
+</view>
+
+<view class="my-user">
+  <view class="my-user-left">
+    <image src="../icon/usergerenxinxi.png"></image>
+  </view>
+  <text>个人信息</text>
+</view>
+
+<view class="my-user">
+  <view class="my-user-left">
+    <image src="../icon/usershuohuodizhi.png"></image>
+  </view>
+  <text>收货地址</text>
+</view>
+
+<view class="my-user">
+  <view class="my-user-left">
+    <image src="../icon/userkefu.png"></image>
+  </view>
+  <text>在线客服</text>
+</view>
+
+<view class="my-user">
+  <view class="my-user-left">
+    <image src="../icon/suershouhou.png"></image>
+  </view>
+  <text>退款/售后</text>
+</view>
+

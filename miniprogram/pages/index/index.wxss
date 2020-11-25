@@ -1,0 +1,102 @@
+/**index.wxss**/
+page{
+  background: #f2f2f2;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+/*  */
+.four-my{
+  width: 100%;
+  height: 410rpx;
+}
+.index-for{
+  width:40%;
+  height:150rpx;
+  float: left;
+  margin-left:7%;
+  margin-top:50rpx;
+  position: relative;
+  border-radius: 36rpx;
+  background-color: rgb(255, 255, 255);
+}
+.index-for-left{
+  width: 25%;
+  height: 80rpx;
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.index-for-left image{
+  width: 80%;
+  height: 80%;
+}
+.index-for-right{
+  width: 55%;
+  height: 110rpx;
+  /* border: 1px rgb(194, 191, 6) solid; */
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.index-for-right text{
+  font-weight: 600;
+  font-size: 14px;
+}
+.text-two{
+  margin-top: 15rpx;
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+}
+.portrait{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.portrait image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.my-name{
+  margin-left: 60rpx;
+  text-align: center;
+}
+.my-user{
+  width: 87%;
+  height: 90rpx;
+  background-color: rgb(255, 255, 255);
+  margin-left: 7%;
+  border-radius: 30rpx;
+  margin-top: 20rpx;
+  padding-top: 18rpx;
+}
+.my-user-left{
+  width: 65rpx;
+  height: 65rpx;
+  margin-left: 25rpx;
+  float: left;
+}
+.my-user-left image{
+  width: 65rpx;
+  height: 65rpx;
+}
+.my-user text{
+  font-size: 13px;
+  margin-left: 20rpx;
+}

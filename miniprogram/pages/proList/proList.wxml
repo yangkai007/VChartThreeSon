@@ -1,0 +1,26 @@
+
+<view class="conter">
+<view class="head">
+  <input class='placehold' value='' placeholder='搜索电影'></input>
+
+</view>
+<!-- 轮播 -->
+<view class="banner">
+  <swiper indicator-dots='true' circular="true" indicator-active-color='#e54847' autoplay='true'
+    easing-function='easeInOutCubic'>
+    <swiper-item>
+      <image src='./imges/home1.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='./imges/home2.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='./imges/home3.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='./imges/home4.png'></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+</view>

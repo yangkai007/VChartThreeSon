@@ -1,0 +1,7 @@
+<!--miniprogram/pages/components/uphead/uphead.wxml-->
+
+<view>撒法发</view>
+<view>
+  <image src="{{userPhone}}" bindtap="getToPhone"></image>
+  <button bindtap="handleBtn">点击更换</button>
+</view>
