@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/homepage/homepage",
+    "pages/details/details",
     "pages/proList/proList",
     "pages/index/index",
-    "pages/homepage/homepage",
     "pages/logs/logs",
     "pages/components/uphead/uphead"
   ],

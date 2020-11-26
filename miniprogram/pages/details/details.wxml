@@ -1,0 +1,75 @@
+<!--miniprogram/pages/details/details.wxml-->
+<!-- 详情页面 -->
+
+<view class="datail">
+<view class="topimg">
+<image src="{{list.img}}"></image>
+</view> 
+
+<view class="center-test">
+<view class="imgtext">
+    <view class="page">
+      ￥<text>{{list.price}}</text>
+    </view>
+    <view class="titles">
+      <text>{{list.name}}</text>
+    </view>
+</view>
+</view>
+
+<view class="center-yun">
+  <view class="center-cen">
+  <view id="center-cenone">
+    <text class="text-one">运费</text>  <text class="textone-rig">￥8.00-100.00</text>
+  </view>
+  <view class="center-centwo">
+    <text class="text-one">优惠</text>  <text class="text-baoyou">包邮</text> <text class="text-manjian">满68.00元部分地区包邮</text>
+  </view>
+</view>
+</view>
+
+<view class="center-fu">
+  <view class="center-cen">
+    <view id="center-cenone">
+    <text class="text-one">服务</text>  <text class="textone-rig">收货后结算·快速发货</text>
+  </view>
+  <view class="center-centwo">
+    <text class="text-one">送至</text>  <text class="text-manjian">查看我的位置</text>
+  </view>
+
+  </view>
+
+</view>
+
+<!-- 底部购物车 -->
+<view class="bottom-img">
+    <!-- 店铺 -->
+    <view class="bottom">
+      <image src="../icon/dianpu.png"></image>
+      <text>店铺</text>
+    </view>
+    <!-- 客服 -->
+    <view class="bottom">
+      <image src="../icon/dekefu.png"></image>
+      <text>客服</text>
+    </view>
+    <!-- 购物车 -->
+    <view class="bottom">
+      <image src="../icon/degouwuche.png"></image>
+      <text>购物车</text>
+    </view>
+    <view class="bottom-bot">
+      <!-- 加入购物车 -->
+      <view class="shops">
+        <text>加入购物车</text>
+        </view>
+    </view>
+    <view class="bottom-bot">
+      <!-- 立即购买 -->
+      <view class="buy">
+        <text>立即购买</text>
+      </view>
+    </view>
+  </view> 
+
+</view>

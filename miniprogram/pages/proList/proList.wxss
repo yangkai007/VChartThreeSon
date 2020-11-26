@@ -1,11 +1,30 @@
 /* pages/proList/proList.wxss */
 page{
-  background: #f2f2f2;
+  background: #f4f5f7;
 }
 .conter{
   height: 100%;
   width: 96%;
   margin-left: 2%;
+}
+.head{
+  height: 85rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.head image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 7rpx;
+}
+.placehold {
+  width: 90%;
+  height: 70rpx;
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border-radius: 26rpx;
+  margin-left: 10rpx;
 }
 
 

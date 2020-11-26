@@ -1,5 +1,6 @@
-// pages/homepage/homepage.js
-const db=wx.cloud.database()
+// miniprogram/pages/details/details.js
+const db=wx.cloud.database() 
+const util =require('../../util/util')
 
 Page({
 
@@ -7,24 +8,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-    ThreeSongShop:[]
+    id:[],
+    list:[]
   },
-
-
-  // 跳转详情
-  goDetails:function(id){
-    console.log(id);
-    console.log(id.currentTarget.dataset.name);
-    wx.navigateTo({
-      url: '../details/details?id='+id.currentTarget.dataset.name+'&data='+id.currentTarget.dataset.data,
-    })
-  },
-
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(options);
+    this.setData({
+      id:options.id
+    })
+    util.star(options.data,{}).then(res=>{
+      this.setData({
+          list:res.data[options.id]
+      })
+      console.log(res.data[options.id]);
+    })
 
   },
 
@@ -32,15 +33,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-db.collection("ThreeSongShop").doc({}).get().then(res=>{
-      // console.log(res);
-      this.setData({
-        ThreeSongShop:res.data.data
-      })
-      // console.log(res.data.data[0].img);  
-    })
-    // console.log(res+'asdasd');
-    
+
   },
 
   /**

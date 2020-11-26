@@ -1,4 +1,7 @@
 /* pages/homepage/homepage.wxss */
+page{
+  background: #f4f5f7;
+}
 .main {
   width: 100%;
   display:flex;
@@ -11,12 +14,13 @@
 
 .mod-item{
   width:46%;
-  height:450rpx;
+  height:510rpx;
   float: left;
   margin-left:20rpx;
-  margin-top:40rpx;
+  margin-top:20rpx;
   position: relative;
-  
+  background: rgb(255, 255, 255);
+  border-radius: 16rpx;
  }
 
 
@@ -36,8 +40,13 @@
    height:45rpx;
    margin-top:15rpx;
    flex-direction:column;
-   text-overflow: ellipsis;
    overflow: hidden;
+   text-overflow: ellipsis;
+   white-space:nowrap;
+/* 去掉高两行显示 剩余···· */
+   /* display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; */
  }
  .mod-info{
    height:40rpx;
@@ -56,9 +65,10 @@
   font-size: 28rpx;
   font-family: '微软雅黑';
   color:#999999;
+  margin-top: 5rpx;
 }
 #haoping{
-  margin-left: 60rpx;
+  margin-left: 75rpx;
 }
  .more-info{
    display: flex;

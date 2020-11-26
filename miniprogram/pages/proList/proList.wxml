@@ -1,8 +1,8 @@
 
 <view class="conter">
 <view class="head">
-  <input class='placehold' value='' placeholder='搜索电影'></input>
-
+    <image src="../icon/sousuoicon.png"></image>
+    <input class='placehold' value='' placeholder='  搜索商品'></input>
 </view>
 <!-- 轮播 -->
 <view class="banner">

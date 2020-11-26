@@ -1,6 +1,6 @@
 /**index.wxss**/
 page{
-  background: #f2f2f2;
+  background: #f4f5f7;
 }
 .userinfo {
   display: flex;
@@ -84,7 +84,7 @@ page{
   margin-left: 7%;
   border-radius: 30rpx;
   margin-top: 20rpx;
-  padding-top: 18rpx;
+  padding-top: 22rpx;
 }
 .my-user-left{
   width: 65rpx;
